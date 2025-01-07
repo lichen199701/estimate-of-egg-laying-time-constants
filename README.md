@@ -1,6 +1,6 @@
 This script is to create histgrams of C. elegans egg-laying log intervals, along with the estimate time constants based on the observed intervals. 
-The model was described in Zhou, Schafer, and Schafer, IEEE% Trans. on Signal Processing, vol. 46, No. 10, October 1998, later got adapted for using in new versions of MATLAB.
-
+The model was described in Zhou, Schafer, and Schafer, IEEE% Trans. on Signal Processing, vol. 46, No. 10, October 1998.
+This script was revised by Dr. William Schafer from the original script written by Dr. G. Tong Zhou, Georgia Tech.
  
  To use the script:
  1. download the whole folder "estimate-of-egg-laying-time-constants" with all the files
