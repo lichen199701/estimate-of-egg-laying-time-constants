@@ -1,0 +1,1 @@
+% INPUT:  m,n:  size of y% 	lambda: distribution parameter; mean=1/lambda. % OUTPUT: y:    mxn i.i.d. exponentially distributed r.v.'s%% Usage: y=randexp(m,n,lambda)% 					G. Tong Zhou% 					Oct.22, 1991function y=randexp(m,n,lambda)u=rand(m,n);			% i.i.d. uniform r.v.'s in [0,1]y=-log(ones(m,n)-u)/lambda;	% y is exponential
